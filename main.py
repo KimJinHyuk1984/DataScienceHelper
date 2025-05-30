@@ -64,24 +64,6 @@ with col1:
         </div>
         """, unsafe_allow_html=True
     )
-    st.markdown( # NumPy 도우미 카드
-        """
-        <div style="border: 1px solid #4B8BFF; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
-            📖 NumPy 도우미<br>
-            <small>수치 연산의 핵심, NumPy 배열 생성, 조작, 함수 사용법을 익힙니다.</small>
-        </div>
-        """, unsafe_allow_html=True
-    )
-
-with col2:
-    st.markdown( # Pandas 도우미 카드
-        """
-        <div style="border: 1px solid #FFCD4B; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
-            🐼 Pandas 도우미<br>
-            <small>데이터 분석의 필수 도구, Pandas Series와 DataFrame 다루는 법을 학습합니다.</small>
-        </div>
-        """, unsafe_allow_html=True
-    )
     st.markdown( # 데이터 시각화 도우미 카드
         """
         <div style="border: 1px solid #FF4B4B; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
@@ -91,7 +73,18 @@ with col2:
         """, unsafe_allow_html=True
     )
 
-with col3:
+
+
+with col2:
+    st.markdown( # NumPy 도우미 카드
+        """
+        <div style="border: 1px solid #4B8BFF; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
+            📖 NumPy 도우미<br>
+            <small>수치 연산의 핵심, NumPy 배열 생성, 조작, 함수 사용법을 익힙니다.</small>
+        </div>
+        """, unsafe_allow_html=True
+    )
+
     st.markdown( # 머신러닝 도우미 카드
         """
         <div style="border: 1px solid #4BFFCD; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
@@ -100,6 +93,20 @@ with col3:
         </div>
         """, unsafe_allow_html=True
     )
+    
+
+with col3:
+    st.markdown( # Pandas 도우미 카드
+        """
+        <div style="border: 1px solid #FFCD4B; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
+            🐼 Pandas 도우미<br>
+            <small>데이터 분석의 필수 도구, Pandas Series와 DataFrame 다루는 법을 학습합니다.</small>
+        </div>
+        """, unsafe_allow_html=True
+    )
+
+    
+
 
 st.markdown("---")
 
