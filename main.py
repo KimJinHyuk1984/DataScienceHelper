@@ -59,7 +59,7 @@ with col1:
     st.markdown( # 데이터 수집 도우미 카드
         """
         <div style="border: 1px solid #CD4BFF; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
-            📥 **데이터 수집 도우미**<br>
+            📥 데이터 수집 도우미<br>
             <small>파일, 웹 API, 스크레이핑, DB 등 다양한 데이터 수집 방법을 안내합니다.</small>
         </div>
         """, unsafe_allow_html=True
@@ -67,7 +67,7 @@ with col1:
     st.markdown( # NumPy 도우미 카드
         """
         <div style="border: 1px solid #4B8BFF; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
-            📖 **NumPy 도우미**<br>
+            📖 NumPy 도우미<br>
             <small>수치 연산의 핵심, NumPy 배열 생성, 조작, 함수 사용법을 익힙니다.</small>
         </div>
         """, unsafe_allow_html=True
@@ -77,7 +77,7 @@ with col2:
     st.markdown( # Pandas 도우미 카드
         """
         <div style="border: 1px solid #FFCD4B; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
-            🐼 **Pandas 도우미**<br>
+            🐼 Pandas 도우미<br>
             <small>데이터 분석의 필수 도구, Pandas Series와 DataFrame 다루는 법을 학습합니다.</small>
         </div>
         """, unsafe_allow_html=True
@@ -85,7 +85,7 @@ with col2:
     st.markdown( # 데이터 시각화 도우미 카드
         """
         <div style="border: 1px solid #FF4B4B; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
-            📊 **데이터 시각화 도우미**<br>
+            📊 데이터 시각화 도우미<br>
             <small>Matplotlib, Seaborn, Plotly, Folium을 활용한 다양한 그래프 작성을 안내합니다.</small>
         </div>
         """, unsafe_allow_html=True
@@ -95,7 +95,7 @@ with col3:
     st.markdown( # 머신러닝 도우미 카드
         """
         <div style="border: 1px solid #4BFFCD; border-radius: 5px; padding: 10px; text-align: center; margin-bottom: 10px; height: 120px; display: flex; flex-direction: column; justify-content: center;">
-            🤖 **머신러닝 도우미**<br>
+            🤖 머신러닝 도우미<br>
             <small>Scikit-learn 기반의 주요 머신러닝 모델과 평가 방법을 알아봅니다.</small>
         </div>
         """, unsafe_allow_html=True
