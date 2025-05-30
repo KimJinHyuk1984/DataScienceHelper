@@ -66,6 +66,10 @@ csv_data_string = \"\"\"ID,Name,Age,City
 csv_file_like = io.StringIO(csv_data_string)
 
 df_from_csv = pd.read_csv(csv_file_like)
+# 수집한 데이터에 한글이 포함되어 있는 경우 인코딩을 지정해야 할 수도 있습니다. 
+# 인코딩은 cp949, utf-8, euc-kr 등으로 다음과 같이 지정할 수 있습니다.
+# df_from_csv = pd.read_csv(csv_file_like, encoding = 'euc-kr')
+
 # print("CSV에서 읽은 DataFrame:\\n", df_from_csv)
 """
 st.code(code_read_csv_coll, language='python')
